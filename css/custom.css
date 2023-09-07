@@ -1,0 +1,47 @@
+
+.img-new{
+    height: 60%;
+    width:50%;
+    border-radius: 15px;
+    margin-top: 15%;
+
+}
+
+@media (max-width: 768px) {
+    .img-new{
+       height: 300px;
+        width:80%;
+        border-radius: 15px;
+        margin-top: 0%;
+    
+    }
+}
+
+.footer-new{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-new img{
+    max-width: 60%;
+}
+
+@media (max-width: 768px) {
+    .footer-new img{
+        max-width: 90%;
+    }
+}
+
+table{
+    width: 100%;
+}
+tr{
+    border:1px solid #444444;
+}
+td{
+    border:1px solid #444444;
+    padding: 10px;
+}
